@@ -80,16 +80,9 @@ Template Name: Blog Page
                     <a href="<?php the_permalink(); ?>">
 
                         <div class="rr-blog-image">
-
-                            <?php if(has_post_thumbnail()) : ?>
-
-                                <?php the_post_thumbnail('large'); ?>
-
-                            <?php else : ?>
-
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/default-blog.jpg" alt="<?php the_title(); ?>">
-
-                            <?php endif; ?>
+  <?php if (has_post_thumbnail()) : ?>
+    <?php the_post_thumbnail('medium_large'); ?>
+  <?php endif; ?>
 
                         </div>
 
