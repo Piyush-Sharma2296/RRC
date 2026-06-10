@@ -20,6 +20,7 @@
         <a href="<?php echo site_url('/'); ?>">Home</a>
       <a href="<?php echo site_url('/about'); ?>">About</a>
       <a href="<?php echo site_url('/services'); ?>">Services</a>
+      <a href="<?php echo site_url('/blog'); ?>">Blog</a>
       <a href="<?php echo site_url('/contact'); ?>">Contact</a>
       <a href="<?php echo site_url('/rental'); ?>">Rental</a>
         <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->

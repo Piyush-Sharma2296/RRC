@@ -153,6 +153,7 @@
             <li><a href="<?php echo site_url('/'); ?>">Home</a></li>
            <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
            <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
+           <a href="<?php echo site_url('/blog'); ?>">Blog</a>
            <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
            <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
           </ul>
