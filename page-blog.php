@@ -1,4 +1,4 @@
-```php
+
 <?php
 /*
 Template Name: Blog Page
@@ -6,7 +6,39 @@ Template Name: Blog Page
 ?>
 
 <?php get_header(); ?>
+<header class="navbar">
+    <div class="nav-container">
 
+      <!-- Logo -->
+       <div class="logo">
+      <a href="<?php echo site_url('/'); ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/RRC-Long-logo.webp">
+      </a>
+
+      </div>
+
+      <!-- Hamburger -->
+      <div class="hamburger" onclick="toggleMenu()">
+        ☰
+      </div>
+
+      <!-- Menu -->
+      <nav class="menu" id="navMenu">
+        <a href="<?php echo site_url('/'); ?>">Home</a>
+      <a href="<?php echo site_url('/about'); ?>">About</a>
+      <a href="<?php echo site_url('/services'); ?>">Services</a>
+      <a href="<?php echo site_url('/contact'); ?>">Contact</a>
+      <a href="<?php echo site_url('/rental'); ?>">Rental</a>
+        <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
+      </nav>
+
+      <!-- Desktop Button -->
+      <!-- <div class="nav-btn">
+        <a href="#ticket">Complaint Ticket</a>
+      </div> -->
+
+    </div>
+  </header>
 <main class="rr-blog-page">
 
     <!-- HERO -->
@@ -113,4 +145,3 @@ Template Name: Blog Page
 </main>
 
 <?php get_footer(); ?>
-```
