@@ -20,6 +20,7 @@
         <a href="<?php echo site_url('/'); ?>">Home</a>
     <a href="<?php echo site_url('/about'); ?>">About</a>
     <a href="<?php echo site_url('/services'); ?>">Services</a>
+    <a href="<?php echo esc_url(home_url('/blog/')); ?>"> Blog </a> 
     <a href="<?php echo site_url('/contact'); ?>">Contact</a>
     <a href="<?php echo site_url('/rental'); ?>">Rental</a>
     <!-- <a href="#ticket" class="mobile-btn">Complaint Ticket</a> -->
@@ -155,7 +156,7 @@
           <li><a href="<?php echo site_url('/'); ?>">Home</a></li>
            <li><a href="<?php echo site_url('/about'); ?>">About</a></li>
            <li><a href="<?php echo site_url('/services'); ?>">Services</a></li>
-           <a href="<?php echo site_url('/blog'); ?>">Blog</a>
+           <li> <a href="<?php echo esc_url(home_url('/blog/')); ?>"> Blog </a> </li>
            <li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
            <li><a href="<?php echo site_url('/rental'); ?>">Rental</a></li>
           </ul>
