@@ -1412,4 +1412,153 @@ a{
   }
 
 }
+.rr-single-page {
+  background: #f5f7fb;
+}
 
+.rr-single-hero {
+  padding: 90px 20px 120px;
+  background: linear-gradient(135deg, #071b45, #0d63d8);
+  color: #fff;
+}
+
+.rr-single-date {
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+
+.rr-single-hero h1 {
+  max-width: 950px;
+  font-size: 52px;
+  line-height: 1.25;
+  font-weight: 900;
+}
+
+.rr-single-featured {
+  margin-top: -70px;
+  padding: 0 20px;
+}
+
+.rr-single-featured img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 22px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.18);
+}
+
+.rr-single-body {
+  padding: 80px 20px;
+}
+
+.rr-single-layout {
+  display: grid;
+  grid-template-columns: 2fr 0.8fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.rr-single-content {
+  background: #fff;
+  padding: 45px;
+  border-radius: 22px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.07);
+}
+
+.rr-single-content p {
+  font-size: 18px;
+  line-height: 1.9;
+  color: #404858;
+  margin-bottom: 24px;
+}
+
+.rr-single-content h2 {
+  font-size: 34px;
+  color: #071b45;
+  margin: 45px 0 18px;
+}
+
+.rr-single-content h3 {
+  font-size: 26px;
+  color: #071b45;
+  margin: 35px 0 15px;
+}
+
+.rr-single-content ul,
+.rr-single-content ol {
+  margin: 0 0 28px 24px;
+}
+
+.rr-single-content li {
+  margin-bottom: 12px;
+  line-height: 1.8;
+}
+
+.rr-single-sidebar {
+  position: sticky;
+  top: 110px;
+}
+
+.rr-sidebar-box {
+  background: #fff;
+  padding: 28px;
+  border-radius: 20px;
+  margin-bottom: 28px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+}
+
+.rr-sidebar-box h3 {
+  font-size: 23px;
+  color: #071b45;
+  margin-bottom: 15px;
+}
+
+.rr-sidebar-box p,
+.rr-sidebar-box li {
+  color: #555;
+  line-height: 1.7;
+}
+
+.rr-sidebar-box ul {
+  padding-left: 20px;
+}
+
+.rr-sidebar-box a {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 13px 24px;
+  background: #0d63d8;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .rr-single-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .rr-single-sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .rr-single-hero {
+    padding: 70px 20px 100px;
+  }
+
+  .rr-single-hero h1 {
+    font-size: 34px;
+  }
+
+  .rr-single-content {
+    padding: 28px;
+  }
+
+  .rr-single-content p {
+    font-size: 16px;
+  }
+}
